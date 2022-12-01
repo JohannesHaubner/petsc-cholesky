@@ -1,5 +1,4 @@
 from petsc4py import PETSc
-from mpi4py import MPI
 
 viewer_A = PETSc.Viewer().createBinary('matrix-A.dat', 'r')
 viewer_b = PETSc.Viewer().createBinary('matrix-B.dat', 'r')
