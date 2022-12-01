@@ -1,1 +1,6 @@
 petsc4py=3.16.6=real_h016f20b_100
+
+scikit-umfpack=0.3.2=py39h5c8cd5b_1004
+scipy=1.7.3=py39hee8e79c_0
+
+numpy=1.22.0=py39h91f2184_1
