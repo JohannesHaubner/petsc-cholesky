@@ -22,5 +22,5 @@ PC.setFromOptions()
 PC.setUp()
 chol = PC.getFactorMatrix()
 
-chol.solveBackward(b_petsc, x_petsc)
+chol.solveBackward(b_petsc, x_petsc) # solveBackward not available for mumps or superlu_dist
 
